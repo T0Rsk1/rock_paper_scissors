@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+#display-container{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#message{
+    margin: 5px;
+    padding: 40px 0 40px 0;
+    border: black solid;
+    box-sizing: border-box;
+    width: 1175px;
+}
+
+#button-container{
+    margin: 5px;
+    border: black solid;
+    box-sizing: border-box;
+    width: 1175px;
+}
+
+.button{
+    margin: 30px;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    transition: transform .4s;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+#score-board{
+    margin: 5px;
+    box-sizing: border-box;
+    width: 1175px;
+    justify-content: space-between;
+}
+
+.score-display{
+    padding: 40px 0 40px 0;
+    border: black solid;
+    width: 587px;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player{
+    margin-right: 5px;
+}
+
+#computer{
+    margin-left: 5px;
+}
