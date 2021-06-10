@@ -9,10 +9,11 @@ body{
 
 #message{
     margin: 5px;
-    padding: 40px 0 40px 0;
     border: black solid;
     box-sizing: border-box;
     width: 1175px;
+    height: 112px;
+    white-space: pre;
 }
 
 #button-container{
@@ -32,6 +33,10 @@ body{
 
 .button:hover{
     transform: scale(1.2);
+}
+
+.no-hover{
+    pointer-events: none;
 }
 
 #score-board{
