@@ -65,7 +65,7 @@ function endGame(){
         btn.classList.add('no-hover');
         btn.removeEventListener('click', playGame);
     });
-    setTimeout(() => displayMsg('GAME OVER \nPress ENTER to reset'), 1000);
+    setTimeout(() => displayMsg('\t      GAME OVER \nPress ENTER to PLAY AGAIN'), 1000);
     window.addEventListener('keydown', e => {
         if(e.keyCode === 13) window.location.reload();
     });

@@ -1,15 +1,19 @@
 body{
     margin: 0;
+    background: black;
+    color: rgb(255, 0, 0);
+
 }
 
-#display-container{
+main{
     flex-direction: column;
     min-height: 100vh;
 }
 
 #message{
-    margin: 5px;
-    border: black solid;
+    margin: 0;
+    border: blue solid;
+    border-radius: 20px;
     box-sizing: border-box;
     width: 1175px;
     height: 112px;
@@ -18,7 +22,8 @@ body{
 
 #button-container{
     margin: 5px;
-    border: black solid;
+    border: blue solid;
+    border-radius: 20px;
     box-sizing: border-box;
     width: 1175px;
 }
@@ -28,6 +33,7 @@ body{
     padding: 30px;
     width: 200px;
     height: 200px;
+    opacity: 95%;
     transition: transform .4s;
 }
 
@@ -47,8 +53,10 @@ body{
 }
 
 .score-display{
+    margin: 0;
     padding: 40px 0 40px 0;
-    border: black solid;
+    border: blue solid;
+    border-radius: 20px;
     width: 587px;
     text-align: center;
 }
