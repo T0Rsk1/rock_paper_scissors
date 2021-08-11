@@ -48,7 +48,7 @@ function displayScore(){
 }
 
 function displayMsg(msg){
-    message.textContent = `${msg}`;
+    message.textContent = msg;
 }
 
 function declareWinner(){

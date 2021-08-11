@@ -18,6 +18,7 @@ main{
     width: 1175px;
     height: 112px;
     white-space: pre;
+    font-size: 3rem;
 }
 
 #button-container{
@@ -59,6 +60,7 @@ main{
     border-radius: 20px;
     width: 587px;
     text-align: center;
+    font-size: 2rem;
 }
 
 .center{
